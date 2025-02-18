@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+	viewBox="0 0 27 17"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<defs>
+		<g id="2400">
+			<rect height="1" width="1" x="2" y="2"/>
+			<rect height="1" width="3" x="3" y="1"/>
+			<rect height="2" width="1" x="6" y="2"/>
+			<rect height="1" width="2" x="4" y="4"/>
+			<rect height="1" width="1" x="3" y="5"/>
+			<rect height="1" width="1" x="2" y="6"/>
+			<rect height="1" width="5" x="2" y="7"/>
+
+			<rect height="1" width="1" x="10" y="2"/>
+			<rect height="1" width="1" x="9" y="3"/>
+			<rect height="1" width="1" x="8" y="4"/>
+			<rect height="7" width="1" x="11" y="1"/>
+			<rect height="1" width="5" x="8" y="5"/>
+			
+			<rect height="5" width="1" x="14" y="2"/>
+			<rect height="5" width="1" x="18" y="2"/>
+			<rect height="1" width="3" x="15" y="1"/>
+			<rect height="1" width="3" x="15" y="7"/>
+
+			<rect height="5" width="1" x="20" y="2"/>
+			<rect height="5" width="1" x="24" y="2"/>
+			<rect height="1" width="3" x="21" y="1"/>
+			<rect height="1" width="3" x="21" y="7"/>
+
+		</g>
+		<g id="baud">
+			<rect height="1" width="4" x="2" y="9"/>
+			<rect height="1" width="4" x="2" y="15"/>
+			<rect height="1" width="4" x="2" y="12"/>
+			<rect height="2" width="1" x="6" y="10"/>
+			<rect height="2" width="1" x="6" y="13"/>
+			<rect height="7" width="1" x="2" y="9"/>
+			<rect height="7" width="1" x="2" y="9"/>
+
+			<rect height="6" width="1" x="8" y="10"/>
+			<rect height="6" width="1" x="12" y="10"/>
+			<rect height="1" width="3" x="9" y="9"/>
+			<rect height="1" width="3" x="9" y="12"/>
+			
+			<rect height="6" width="1" x="14" y="9"/>
+			<rect height="6" width="1" x="18" y="9"/>
+			<rect height="1" width="3" x="15" y="15"/>
+
+			<rect height="7" width="1" x="20" y="9"/>
+			<rect height="5" width="1" x="24" y="10"/>
+			<rect height="1" width="4" x="20" y="9"/>
+			<rect height="1" width="4" x="20" y="15"/>
+			
+		</g>
+	</defs>
+	<g>
+		<use 
+			stroke="none"
+			fill="black"
+			xlink:href="#2400"/>
+		<use 
+			stroke="none"
+			fill="black"
+			xlink:href="#baud"/>
+	</g>
+</svg>

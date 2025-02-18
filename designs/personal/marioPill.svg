@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 14.624355 12.062178"
+   version="1.1"
+   id="svg13254"
+   width="14.624355"
+   height="12.062178"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13248">
+    <g
+       id="marioPill">
+      <rect
+         x="2"
+         y="1"
+         width="12"
+         height="7"
+         fill="#ff0000"
+         id="rect13233" />
+      <rect
+         x="1"
+         y="2"
+         width="14"
+         height="5"
+         fill="#ff0000"
+         id="rect13235" />
+      <rect
+         x="8"
+         y="2"
+         width="7"
+         height="5"
+         fill="#0000ff"
+         id="rect13237" />
+      <rect
+         x="8"
+         y="1"
+         width="6"
+         height="7"
+         fill="#0000ff"
+         id="rect13239" />
+      <rect
+         x="9"
+         y="2"
+         width="4"
+         height="1"
+         fill="#ffff00"
+         id="rect13241" />
+      <rect
+         x="3"
+         y="2"
+         width="4"
+         height="1"
+         fill="#ffff00"
+         id="rect13243" />
+      <rect
+         x="2"
+         y="3"
+         width="1"
+         height="1"
+         fill="#ffff00"
+         id="rect13245" />
+    </g>
+  </defs>
+  <g
+     transform="translate(-3.8756443,-1.3660254)">
+    <use
+       xlink:href="#marioPill"
+       transform="rotate(-30,15,0)"
+       id="use13250" />
+  </g>
+</svg>

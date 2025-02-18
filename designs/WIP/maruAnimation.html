@@ -1,0 +1,1995 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <style>
+
+            
+
+            .y90 {
+                transform-origin: center;
+                transform: rotateY(90deg); 
+                animation:showY90 16s linear infinite;
+            }
+
+            @keyframes showY90 { 
+                0% { 
+                    display: none;
+                } 
+                16.665% { 
+                    display: none;
+                } 
+                16.666% { 
+                    display: block;
+                    transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg);
+                } 
+                50% { 
+                    display: block;
+                    transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg) scale(1);
+                }
+                57.832% { 
+                    display: block;
+                }
+                58.333% { 
+                    transform: rotateX(180deg) rotateY(270deg) rotateZ(0deg) scale(0);
+                    display: none;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+            .x90 {
+                transform-origin: center;
+                transform: rotateX(90deg); 
+                animation:showX90 16s linear infinite;
+            }
+
+            @keyframes showX90 { 
+                0% { 
+                    display: none;
+                } 
+                16.665% { 
+                    display: none;
+                } 
+                16.666% { 
+                    display: block;
+                    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+                } 
+                50% { 
+                    display: block;
+                    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) scale(1);
+                }
+                57.832% { 
+                    display: block;
+                }
+                58.333% { 
+                    transform: rotateX(270deg) rotateY(180deg) rotateZ(0deg) scale(0);
+                    display: none;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+            .x45 {
+                transform-origin: center;
+                transform: rotateY(90deg) rotateX(45deg); 
+                animation:showX45 16s linear infinite;
+            }
+
+            @keyframes showX45 { 
+                0% { 
+                    display: none;
+                } 
+                16.665% { 
+                    display: none;
+                } 
+                16.666% { 
+                    display: block;
+                    transform: rotateX(45deg) rotateY(90deg) rotateZ(0deg);
+                } 
+                50% { 
+                    display: block;
+                    transform: rotateX(45deg) rotateY(90deg) rotateZ(0deg) scale(1);
+                }
+                57.832% { 
+                    display: block;
+                }
+                58.333% { 
+                    transform: rotateX(225deg) rotateY(270deg) rotateZ(0deg) scale(0);
+                    display: none;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+            .x135 {
+                transform-origin: center;
+                transform: rotateY(90deg) rotateX(135deg); 
+                animation:showX135 16s linear infinite;
+            }
+
+            @keyframes showX135 { 
+                0% { 
+                    display: none;
+                } 
+                16.665% { 
+                    display: none;
+                } 
+                16.666% { 
+                    display: block;
+                    transform: rotateX(135deg) rotateY(90deg) rotateZ(0deg);
+                } 
+                50% { 
+                    display: block;
+                    transform: rotateX(135deg) rotateY(90deg) rotateZ(0deg) scale(1);
+                }
+                57.832% { 
+                    display: block;
+                }
+                58.333% { 
+                    transform: rotateX(315deg) rotateY(270deg) rotateZ(0deg) scale(0);
+                    display: none;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+            .z45 {
+                transform-origin: center;
+                transform: rotateZ(45deg);
+            }
+
+            .zFighters {
+                transform-origin: center;
+                animation:spin 16s linear infinite;
+                transform: scale(1);
+                transform-origin: center;
+            }
+
+            @keyframes spin { 
+                25% { 
+                    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+                } 
+                33.333% { 
+                    transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg);
+                } 
+                41.666% { 
+                    transform: rotateX(90deg) rotateY(0deg) rotateZ(90deg);
+                } 
+                50% { 
+                    transform: rotateX(180deg) rotateY(0deg) rotateZ(135deg);
+                }
+                58.333% { 
+                    transform: rotateX(180deg) rotateY(0deg) rotateZ(135deg) scale(1);
+                } 
+                61% {
+                    transform: rotateX(180deg) rotateY(0deg) rotateZ(135deg) scale(0);
+                }
+                100% { 
+                    transform: rotateX(0) rotateY(0) rotateZ(0) scale(0);
+                } 
+            }
+
+            .zWest, .zEast {
+                transform-origin: center;
+                animation:reveal 16s linear infinite;
+            }
+
+
+            @keyframes reveal { 
+                0% { 
+                    transform: rotateX(90deg) rotateZ(-90deg) scale(0);
+                } 
+                33.333% { 
+                    transform: rotateX(90deg) rotateZ(-90deg) scale(0);
+                }
+                41.666% { 
+                    transform: rotateX(90deg) rotateZ(-90deg) scale(1);
+                } 
+                50% { 
+                    transform: rotateX(0deg) rotateZ(0deg) scale(1);
+                }
+                58.333% { 
+                    transform: rotateX(0deg) rotateZ(0deg) scale(1);
+                } 
+                80% { 
+                    transform: rotateX(0deg) rotateZ(0deg) scale(1);
+                } 
+                100% { 
+                    transform: rotateX(90deg) rotateZ(-90deg) scale(1);
+                }
+            }
+
+            .maruSoto {
+                animation:popLate 16s linear infinite;
+            }
+
+
+            @keyframes popLate { 
+                0% { 
+                    display: none;
+                } 
+                50% { 
+                    display: block;
+                } 
+                99.9% { 
+                    display: block;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+            .arrows {
+                transform-origin: center;
+                animation:showArrow 16s linear infinite;
+            }
+
+
+            @keyframes showArrow { 
+                0% { 
+                    display: none;
+                } 
+                16.665% { 
+                    display: none;
+                } 
+                16.666% { 
+                    display: block;
+                } 
+                50% { 
+                    display: block;
+                    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1);
+                }
+                57.832% { 
+                    display: block;
+                }
+                58.333% { 
+                    transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg) scale(0);
+                    display: none;
+                }
+                100% { 
+                    display: none;
+                }
+            }
+
+
+            
+
+
+            .startSquare {
+                transform-origin: center;
+                animation:hideSquare 16s linear infinite;
+            }
+
+
+            @keyframes hideSquare { 
+                0% { 
+                    display: block;
+                } 
+                16.665% { 
+                    display: block;
+                    transform: scale(1);
+                } 
+                16.666% { 
+                    display: none;
+                } 
+                53.332% { 
+                    display: none;
+                }
+                53.333% { 
+                    display: none;
+                    transform: scale(0);
+                }
+                58.5% { 
+                    display: none;
+                    transform: scale(0);
+                }
+                66% { 
+                    display: none;
+                    transform: scale(0);
+                }
+                98.5% { 
+                    display: none;
+                    transform: scale(0);
+                }
+                99.9% { 
+                    transform: scale(1);
+                }
+                100% { 
+                    display: block;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <svg
+            width="512px"
+            height="512px"
+            viewBox="0 0 108 108"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:svg="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <clipPath id="myClip">
+                    <path d="M 12 0 V 12 L 0 12 Z"/>
+                </clipPath>
+                <g id="soto"
+                    transform="translate(2,2) rotate(-45 52 52)">
+                <path
+                    stroke="white"
+                    id="path001"
+                    d="M 64 18 V 90 Z"/>
+                <path
+                    stroke="white"
+                    id="path002"
+                    d="M 70 24 H 34 Z"/>
+                <path
+                    stroke="white"
+                    id="path004"
+                    d="M 40 18 V 54 Z"/>
+                <path
+                    stroke="white"
+                    id="path003"
+                    d="M 70 48 H 3 Z"/>
+
+                <path
+                    stroke="white"
+                    id="path005"
+                    d="M 64.48528 11.5 V 90 Z"
+                    transform="rotate(45 50 50)"/>
+                <circle
+                    stroke="white"
+                    id="outline"
+                    cx="52"
+                    cy="52"
+                    r="44.467"/>
+                </g>
+                <g id="arrowHead">
+                    <rect
+                        width="12"
+                        height="12"
+                        rx="0"
+                        fill="white"/>
+                </g>
+            </defs>
+            
+            <rect 
+                width="100%"
+                height="100%"
+                fill="green"/>
+                
+            <g class="startSquare">
+                <rect
+                    fill="white"
+                    x="48"
+                    y="48"
+                    width="12"
+                    height="12"
+                    transform="rotate(45 54 54)">
+                    <animate
+                        dur="16s"
+                        attributeName="rx"
+                        values="12;12;0;0;12;12"
+                        keyTimes="0; 0.0333; 0.1666; 0.58333; 0.595; 1"
+                        repeatCount="indefinite"/>
+                </rect>
+                <rect
+                    fill="white"
+                    x="48"
+                    y="48"
+                    width="12"
+                    height="12">
+                    <animate
+                        dur="16s"
+                        attributeName="rx"
+                        values="12;12;12;0;12;12"
+                        keyTimes="0; 0.0333; 0.1666; 0.58333; 0.595; 1"
+                        repeatCount="indefinite"/>
+                </rect>
+            </g>
+            
+
+            <g class="arrowBatch">
+                <g class="arrows">
+                    <g class="trueNorth">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueSouth">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                    </g>
+                    <g class="zFighters">
+                        <g id="east">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                        <g id="west">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="x"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="north">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="south">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                    </g>
+    
+                    <g class="zEast">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                    <g class="zWest">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="x"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                </g>
+    
+                
+            </g>
+
+            <g class="y90">
+                <g>
+                    <g class="z45">
+                        <g id="east">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                        <g id="west">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="x"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="north">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="south">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                    </g>
+    
+                    <g class="trueEast">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                    <g class="trueWest">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="x"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueNorth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="y"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueSouth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+
+            <g class="x90">
+                <g>
+                    <g class="z45">
+                        <g id="east">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                        <g id="west">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="x"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="north">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="south">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                    </g>
+    
+                    <g class="trueEast">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                    <g class="trueWest">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="x"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueNorth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="y"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueSouth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+
+            <g class="x45">
+                <g>
+                    <g class="z45">
+                        <g id="east">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                        <g id="west">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="x"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="north">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="south">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                    </g>
+    
+                    <g class="trueEast">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                    <g class="trueWest">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="x"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueNorth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="y"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueSouth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+
+            <g class="x135">
+                <g>
+                    <g class="z45">
+                        <g id="east">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                        <g id="west">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="0"
+                                height="8"
+                                x="54"
+                                y="50"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="width"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="x"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="north">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(-135 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                                <animate
+                                    dur="16s"
+                                    attributeName="y"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="54; 54; 13.8; 13.8; 54; 54"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+    
+                        <g id="south">
+                        <g>
+                            <use 
+                                clip-path="url(#myClip)"
+                                x="48"
+                                y="48"
+                                transform="rotate(45 54 54)"
+                                xlink:href="#arrowHead"/>>
+                                <animateTransform
+                                    attributeName="transform"
+                                    attributeType="XML"
+                                    dur="16s"
+                                    repeatCount="indefinite"
+                                    type="translate"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                    additive="sum"/>
+                        </g>
+                        <g>
+                            <rect
+                                width="8"
+                                height="0"
+                                x="50"
+                                y="54"
+                                fill="white">
+                                <animate
+                                    dur="16s"
+                                    attributeName="height"
+                                    keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                    values="0; 0; 40.2; 40.2; 0; 0"
+                                    repeatCount="indefinite"/>
+                            </rect>
+                        </g>
+                        </g>
+                    </g>
+    
+                    <g class="trueEast">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 40,0; 40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                    <g class="trueWest">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; -40,0; -40,0; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="0"
+                            height="8"
+                            x="54"
+                            y="50"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="width"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="x"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueNorth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(-135 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,-40; 0,-40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                            <animate
+                                dur="16s"
+                                attributeName="y"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="54; 54; 13.8; 13.8; 54; 54"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+    
+                    <g class="trueSouth">
+                        <g>
+                        <use 
+                            clip-path="url(#myClip)"
+                            x="48"
+                            y="48"
+                            transform="rotate(45 54 54)"
+                            xlink:href="#arrowHead"/>>
+                            <animateTransform
+                                attributeName="transform"
+                                attributeType="XML"
+                                dur="16s"
+                                repeatCount="indefinite"
+                                type="translate"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0,0; 0; 0,40; 0,40; 0,0; 0,0"
+                                additive="sum"/>
+                        </g>
+                        <g>
+                        <rect
+                            width="8"
+                            height="0"
+                            x="50"
+                            y="54"
+                            fill="white">
+                            <animate
+                                dur="16s"
+                                attributeName="height"
+                                keyTimes="0; 0.1666; 0.25; 0.5; 0.58333; 1"
+                                values="0; 0; 40.2; 40.2; 0; 0"
+                                repeatCount="indefinite"/>
+                        </rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+
+            
+
+            <g class="maruSoto">
+                <g>
+                    <circle
+                    fill="transparent"
+                    stroke="white"
+                    cx="54"
+                    cy="54">
+                    <animate
+                        dur="16s"
+                        attributeName="r"
+                        values="0;0;1;46;46;1"
+                        keyTimes="0; 0.665; 0.666; 0.75; 0.93666; 1"
+                        repeatCount="indefinite"/>
+                    <animate
+                        dur="16s"
+                        attributeName="stroke-width"
+                        values="0;10;6;6;10;6"
+                        keyTimes="0; 0.665; 0.666; 0.75; 0.93666; 1"
+                        repeatCount="indefinite"/>
+                    </circle>
+                </g>
+
+                <g>
+                    <use 
+                    stroke="white"
+                    stroke-width="12"
+                    fill="none"
+                    xlink:href="#soto"
+                    transform="translate(54,54)"/>
+                    <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    dur="16s"
+                    repeatCount="indefinite"
+                    type="translate"
+                    values="0,0;0,0;54,54;-54,-54;-54,-54;54,54"
+                    keyTimes="0; 0.665; 0.666; 0.75; 0.93666; 1"/>
+                    <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    dur="16s"
+                    repeatCount="indefinite"
+                    type="scale"
+                    values="0;0;0;1;1;0"
+                    keyTimes="0; 0.665; 0.666; 0.75; 0.93666; 1"
+                    additive="sum"/>
+                </g>
+            </g>
+        </svg>
+    </body>
+
+</html>

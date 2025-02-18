@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   id="svg590"
+   sodipodi:docname="frog.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview592"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="4.7677456"
+     inkscape:cx="42.263161"
+     inkscape:cy="46.03853"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g588" />
+  <clipPath
+     id="Mask">
+    <circle
+       cx="50"
+       cy="50"
+       r="50"
+       id="circle531" />
+  </clipPath>
+  <defs
+     id="defs536">
+    <style
+       id="style534">.c0{fill:black;}.c1{fill:white;}.c2{fill:#52361b;}.c3{fill:red;}.c4{fill:darkorange;}.c5{fill:yellow;}.c6{fill:limegreen;}.c7{fill:darkgreen;}.c8{fill:lightblue;}.c9{fill:blue;}.c10{fill:rebeccapurple;}.c11{fill:deeppink;}</style>
+  </defs>
+  <g
+     clip-path="url(#Mask)"
+     id="g588">
+    <circle
+       class="c1"
+       cx="67.54"
+       cy="21.9"
+       r="50"
+       opacity="0"
+       id="circle542" />
+    <circle
+       class="c7"
+       cx="50.29"
+       cy="56.4"
+       r="38"
+       opacity="0"
+       id="circle550" />
+    <g
+       id="g721"
+       transform="translate(-0.19499874)">
+      <circle
+         class="c6"
+         cx="31.690001"
+         cy="25.59"
+         r="18"
+         opacity="1"
+         id="circle552" />
+      <circle
+         class="c6"
+         cx="68.699997"
+         cy="25.59"
+         r="18"
+         opacity="1"
+         id="circle554" />
+    </g>
+    <circle
+       class="c6"
+       cx="50"
+       cy="59.689999"
+       r="38"
+       opacity="1"
+       id="circle556" />
+    <circle
+       class="c6"
+       cx="32.27"
+       cy="26.74"
+       r="16"
+       opacity="1"
+       id="circle558" />
+    <circle
+       class="c6"
+       cx="70.06"
+       cy="26.94"
+       r="16"
+       opacity="1"
+       id="circle560" />
+    <g
+       id="g717">
+      <circle
+         class="c1"
+         cx="31.68"
+         cy="27.71"
+         r="16"
+         opacity="1"
+         id="circle562" />
+      <circle
+         class="c1"
+         cx="68.32"
+         cy="27.709999"
+         r="16"
+         opacity="1"
+         id="circle564" />
+    </g>
+    <circle
+       class="c0"
+       cx="30.72"
+       cy="30.03"
+       r="4"
+       opacity="1"
+       id="circle566" />
+    <circle
+       class="c0"
+       cx="68.889999"
+       cy="30.030001"
+       r="4"
+       opacity="1"
+       id="circle568" />
+    <circle
+       class="c3"
+       cx="50"
+       cy="73.639999"
+       r="16"
+       opacity="1"
+       id="circle570" />
+    <g
+       id="g713"
+       transform="translate(0.47500038)">
+      <circle
+         class="c6"
+         cx="38.09"
+         cy="57.549999"
+         r="14"
+         opacity="1"
+         id="circle572" />
+      <circle
+         class="c6"
+         cx="60.959999"
+         cy="57.549999"
+         r="14"
+         opacity="1"
+         id="circle574" />
+    </g>
+    <circle
+       class="c7"
+       cx="23.74"
+       cy="57.75"
+       r="2"
+       opacity="1"
+       id="circle576" />
+    <circle
+       class="c7"
+       cx="32.66"
+       cy="54.26"
+       r="2"
+       opacity="1"
+       id="circle578" />
+    <circle
+       class="c7"
+       cx="67.34"
+       cy="54.08"
+       r="2"
+       opacity="1"
+       id="circle580" />
+    <circle
+       class="c7"
+       cx="76.84"
+       cy="58.34"
+       r="2"
+       opacity="1"
+       id="circle582" />
+    <circle
+       class="c0"
+       cx="48.16"
+       cy="62.4"
+       r="2"
+       opacity="0"
+       id="circle584" />
+    <circle
+       class="c0"
+       cx="51.45"
+       cy="62.6"
+       r="2"
+       opacity="0"
+       id="circle586" />
+  </g>
+</svg>

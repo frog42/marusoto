@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="286.6788mm"
+   height="58.208252mm"
+   viewBox="0 0 286.67881 58.208252"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="clothArmor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.38212513"
+     inkscape:cx="664.70373"
+     inkscape:cy="132.15566"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.659142,-385.40866)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:77.611px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0"
+       x="163.24451"
+       y="442.68558"
+       id="text236-8"><tspan
+         sodipodi:role="line"
+         id="tspan234-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Zen Antique Soft';-inkscape-font-specification:'Zen Antique Soft';fill:#000000;stroke-width:0"
+         x="163.24451"
+         y="442.68558">10  DEX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:77.611px;line-height:1;font-family:Times;-inkscape-font-specification:Times;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0"
+       x="123.10643"
+       y="434.12396"
+       id="text587"><tspan
+         sodipodi:role="line"
+         id="tspan585"
+         style="stroke-width:0;fill:#000000"
+         x="123.10643"
+         y="434.12396">+</tspan></text>
+  </g>
+</svg>

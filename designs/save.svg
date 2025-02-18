@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 100 100">
+    <mask id="disk">
+        <rect width="100%" height="100%" fill="white"/>
+        <path d="M 25,68 V 25 H 75 V 75 H 32 Z" fill="black" />
+        <path d="M 35,27 H 65 V 50 H 35 Z" fill="white" />
+        <path d="M 35,50 H 65 V 55 H 35 Z" fill="green" />
+        <path d="M 35,75 H 65 V 60 H 35 Z" fill="white" />
+        <path d="M 40,73 H 47 V 63 H 40 Z" fill="green" />
+    </mask>
+    <circle mask="url(#disk)" cx="50" cy="50" r="50" />
+</svg>

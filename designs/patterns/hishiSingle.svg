@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="asanoha"
+   width="32"
+   height="38"
+   version="1.1"
+   sodipodi:docname="hishiSingle.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2583"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="4.3865779"
+     inkscape:cx="-0.45593628"
+     inkscape:cy="33.397333"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="asanoha" />
+  <defs
+     id="defs2562">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#asanohaPattern"
+       id="pattern2702"
+       patternTransform="rotate(90,0.5,-8.5)" />
+    <g
+       id="asanohaRect">
+      <rect
+         width="28"
+         height="16"
+         mask="url(#asanohaMask)"
+         id="rect2559"
+         x="0"
+         y="0" />
+    </g>
+  </defs>
+  <mask
+     id="asanohaMask">
+    <rect
+       width="28"
+       height="16"
+       fill="#ffffff"
+       id="rect2564"
+       x="0"
+       y="0" />
+    <g
+       stroke-width="0.8"
+       stroke="#000000"
+       fill="none"
+       id="g2574">
+      <path
+         d="m 0,8 4.6188,8 H 14 L 9.2376,8 Z"
+         id="path2566" />
+      <path
+         d="M 0,8 4.6188,0 H 14 L 9.2376,8 Z"
+         id="path2568" />
+      <path
+         d="m 14,16 h 9.094 L 28,8 h -9.5248 z"
+         id="path2570" />
+      <path
+         d="m 14,0 h 9.094 L 28,8 h -9.5248 z"
+         id="path2572" />
+    </g>
+  </mask>
+  <pattern
+     id="asanohaPattern"
+     width="28"
+     height="16"
+     patternTransform="rotate(90)"
+     patternUnits="userSpaceOnUse">
+    <use
+       xlink:href="#asanohaRect"
+       fill="black"
+       id="use2577" />
+  </pattern>
+  <path
+     d="M 16,0 32,10 V 28 L 16,38 0,28 V 10 Z"
+     fill="url(#asanohaPattern)"
+     id="path2580"
+     style="fill:url(#pattern2702)" />
+</svg>

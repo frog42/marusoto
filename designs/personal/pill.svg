@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+	width="96px"
+	height="96px"
+	viewBox="0 0 100 100"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<defs>
+		<g id="pill">
+			<path
+				id="path000"
+				stroke="white"
+				stroke-width="4"
+				d="M 25 70 A 1 1 0 0 1 25 30 H 75 A 1 1 0 0 1 75 70 Z"/>
+			<path
+				id="path001"
+				fill="red"
+				d="M 25 70 A 1 1 0 0 1 25 30 H 42 A 1 1.5 0 0 1 42 70 Z"/>
+			<path
+				id="path002"
+				fill="blue"
+				d="M 42 70 A 1 1.5 0 0 0 42 30 H 75 A 1 1 0 0 1 75 70 Z"/>
+			<path
+				id="path003"
+				fill="white"
+				d="M 25 35 A 1 1 0 0 0 25 40 H 35 A 1 1 0 0 0 35 35 Z"/>
+			<path
+				id="path004"
+				fill="white"
+				d="M 60 35 A 1 1 0 0 0 60 40 H 80 A 1 1 0 0 0 80 35 Z"/>
+			<path
+				id="path005"
+				fill="none"
+				stroke="black"
+				stroke-width="1.5"
+				d="M 25 70 A 1 1 0 0 1 25 30 H 42 A 1 1.5 0 0 1 42 70 Z"/>
+			<path
+				id="path006"
+				fill="none"
+				stroke="black"
+				stroke-width="1.5"
+				d="M 42 70 A 1 1.5 0 0 0 42 30 H 75 A 1 1 0 0 1 75 70 Z"/>
+		</g>
+	</defs>
+	<g>
+		<use 
+			xlink:href="#pill"
+			transform="rotate(-30 50 50)"/>
+	</g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="cutOut" fill="white">
+      <circle cx="50" cy="50" r="50"/>
+      <text fill="black">
+         <tspan x="18" y="68"
+         style="font-size:52px;font-family:arial;">
+            Rx
+         </tspan>
+       </text>
+
+    </mask>
+  </defs>
+  <g>
+    <circle
+       cx="50"
+       cy="50"
+       r="50"
+       fill="black"
+       mask="url(#cutOut)" />
+  </g>
+  
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="41.774471mm"
+   height="48.595886mm"
+   viewBox="0 0 41.774471 48.595886"
+   version="1.1"
+   id="svg1013"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="showa99.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1015"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.96131658"
+     inkscape:cx="-13.003001"
+     inkscape:cy="108.70508"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1010">
+    <rect
+       x="87.794838"
+       y="188.13179"
+       width="683.54553"
+       height="470.32947"
+       id="rect1019" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-84.112763,-50.814867)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-8.7213029,0)"
+       id="text1017"
+       style="font-weight:bold;font-size:85.3333px;line-height:1;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono Bold';text-align:center;white-space:pre;shape-inside:url(#rect1019);display:inline;fill:#000000;stroke-width:0"><tspan
+         x="344.23425"
+         y="263.22416"
+         id="tspan1545"><tspan
+           style="font-family:'Zen Antique Soft';-inkscape-font-specification:'Zen Antique Soft Bold'"
+           id="tspan1543">昭和</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:34.6833px;line-height:1;font-family:'Zen Antique Soft';-inkscape-font-specification:'Zen Antique Soft Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0"
+       x="95.44574"
+       y="71.11554"
+       id="text1075-7"
+       transform="scale(1.1001013,0.90900717)"><tspan
+         sodipodi:role="line"
+         id="tspan1073-3"
+         style="stroke-width:0"
+         x="95.44574"
+         y="71.11554" /><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Avenir;-inkscape-font-specification:'Avenir Medium';stroke-width:0"
+         id="tspan1079-2"
+         x="95.44574"
+         y="105.79884">99</tspan></text>
+  </g>
+</svg>
